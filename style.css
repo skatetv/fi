@@ -78,4 +78,20 @@
 .Blog .noteAlert:before{content:'\2691'}
 /* note */
 
+/* Widget FeaturedPost */
+.FeaturedPost article{display:flex;align-items:center;flex-wrap:wrap;margin:0;padding:10px;position:relative;overflow:hidden}
+.FeaturedPost article:after{content:'';display:block;min-width:25px;padding:4px 0;background-color:$(link.bg.colors);position:absolute;top:0;right:0;border-radius:0 0 0 3px}
+.FeaturedPost .item-thumbnail{flex:0 0 auto;width:310px;margin-right:20px}
+.FeaturedPost .item-content{flex:1 0;padding:8px 8px 8px 0;width:calc(100% - 330px)}
+.FeaturedPost .item-label a:hover, .PopularPosts .item-label a:hover, .Label li a .label-title:hover{text-decoration:underline}
+.FeaturedPost .item-title{font-size:120%;line-height:1.48em}
+.FeaturedPost .item-title a, .PopularPosts .item-title a{-webkit-line-clamp:2}
+.FeaturedPost .item-entry{margin-top:12px;font-size:90%}
+.sidebar .FeaturedPost article{display:block;padding:0;box-shadow:none}
+.sidebar .FeaturedPost .item-content{padding:15px 0 0}
+.sidebar .FeaturedPost .item-title, .PopularPosts .item-title{font-size:95%}
+
+
+
+
 
