@@ -91,3 +91,16 @@
 .sidebar .FeaturedPost .item-content{padding:15px 0 0}
 .sidebar .FeaturedPost .item-title, .PopularPosts .item-title{font-size:95%}
 
+   
+/* Lazy Youtube */
+.lazyYoutube{background-color:var(--highlight-bg);position:relative;overflow:hidden;padding-top:56.25%;border-radius:2px}
+.lazyYoutube img{width:100%;top:-16.84%;left:0;opacity:.95}
+.lazyYoutube img, .lazyYoutube iframe, .lazyYoutube .playBut{position:absolute}
+.lazyYoutube iframe{height:100%;width:100%;top:0;left:0}
+.lazyYoutube .playBut{top:50%;left:50%;transform:translate3d(-50%,-50%,0);-webkit-transition:all .5s ease;transition:all .5s ease}
+.lazyYoutube .playBut{display:inline-block;width:70px;height:70px;z-index:1}
+.lazyYoutube .playBut svg{width:inherit;height:inherit;fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:7}
+.lazyYoutube .playBut .circle{stroke:rgba(255,255,255,.75);stroke-dasharray:650;stroke-dashoffset:650;-webkit-transition:all .5s ease-in-out;transition:all .5s ease-in-out;opacity:.3}
+.lazyYoutube .playBut .triangle{stroke:rgba(255,255,255,.75);stroke-dasharray:240;stroke-dashoffset:480;-webkit-transition:all .7s ease-in-out;transition:all .7s ease-in-out;transform:translateY(0);-webkit-transform:translateY(0)}
+.lazyYoutube .playBut:hover .triangle{animation:nudge .7s ease-in-out;-webkit-animation:nudge .7s ease-in-out}
+.lazyYoutube .playBut:hover .triangle, .lazyYoutube .playBut:hover .circle{stroke-dashoffset:0;opacity:1;stroke:var(--highlight-red)}
