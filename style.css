@@ -1,0 +1,9 @@
+/* box */
+
+.asdesc{position:relative;display:inline-block;width:320px;margin:0 3px 30px;padding:20px; border:1px solid #eceff1; font-size:14px;line-height:1.8em;border-radius:15px;} .asdesc h3, .asdesc h4, .asdesc b{font-size:13px;font-weight:400; margin:0;padding:2px 14px;background-color:#282828;border:1px solid #eceff1;border-radius:15px; position:absolute;top:-15.5px;left:20px;color:#fefefe;} 
+.drkM .asdesc b{background-color:#252526}
+.asbutton{display:inline-flex;align-items:center; margin:12px 12px 12px 0;padding:10px 15px;outline:0;border:2px; border-radius:50px;line-height:20px; color:#fefefe; background-color:#204ecf; font-size:13px;font-family:'Noto Sans', sans-serif; white-space:nowrap;overflow:hidden;max-width:100%}.asbutton.outline{color:inherit; background-color:transparent; border:1px solid #eceff1} .asbutton.outline:hover{border-color:#204ecf}
+
+ 
+/* box */
+
