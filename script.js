@@ -1,3 +1,6 @@
+
+// FAQ 
+
 const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
 
 accordionItemHeaders.forEach(accordionItemHeader => {
@@ -22,3 +25,5 @@ accordionItemHeaders.forEach(accordionItemHeader => {
     
   });
 });
+
+// FAQ 
