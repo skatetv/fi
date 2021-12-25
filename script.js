@@ -9,6 +9,8 @@
         
 // Load Bar
 
+// 404 Error
+window.location.href= <data:blog.homepageUrl/> ; 
 
 // FAQ 
 
