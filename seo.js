@@ -15,11 +15,6 @@ var uri = window.location.toString();if (uri.indexOf("?m=1","?m=1") > 0) {var cl
 // Load Bar
 
 
-// Start Alexa Certify Javascript 
-_atrk_opts = { atrk_acct:"EXMNp1IWh9106C", domain:"skatestv.com",dynamic: true};
-(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
-<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=EXMNp1IWh9106C" style="display:none" height="1" width="1" alt="" /></noscript>
-// End Alexa Certify Javascript
 
 
 // Google Analytics
